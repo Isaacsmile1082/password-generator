@@ -1,12 +1,29 @@
-import { Button, useColorMode } from "@chakra-ui/react";
+import {
+  Box,
+  Center,
+  Heading,
+  Text,
+  useColorModeValue,
+  VStack,
+} from "@chakra-ui/react";
+import { Header } from "./components/Header";
 
 function App() {
-  const { colorMode, toggleColorMode } = useColorMode();
-  console.log(colorMode);
+  const bg = useColorModeValue("gray.100", "gray.700");
   return (
-    <header>
-      <Button onClick={toggleColorMode}>Toggle color</Button>
-    </header>
+    <div>
+      <Header />
+      <Center>
+        <VStack spacing={6}>
+          <Heading as="h1" size="sm">
+            Password generator
+          </Heading>
+          <Box backgroundColor={bg} p="3" rounded="md" minW="300px">
+            <Text fontSize={"2xl"}>D8saz@dadsa.</Text>
+          </Box>
+        </VStack>
+      </Center>
+    </div>
   );
 }
 
