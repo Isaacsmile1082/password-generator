@@ -12,6 +12,12 @@ api is found it here https://github.com/Isaacsmile1082/password-api make sure tu
 before run the frontend build 
 
 
+#### Features
+
+** Toggle between dark mode and light mode
+** Compare if your password is really strong
+** Generate a password based in certain conditions 
+
 ### Video
 
 
