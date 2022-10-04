@@ -21,6 +21,7 @@ export const useMeasurer = (measurerState: measurerType) => {
   return {
     registerMeasure,
     setActiveMeasurement,
+    measurement,
   };
 };
 
@@ -33,6 +34,7 @@ export const Measurer = ({ activeMeasurement }: IMeasurer) => {
       <HStack spacing={3} flexDir="row">
         {measurement.map((e, i) => (
           <Box
+            key={i}
             minH="10"
             bg={activeMeasurement >= i ? "yellow.600" : "blackAlpha.800"}
             rounded="sm"
