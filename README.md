@@ -7,16 +7,16 @@ app made it using react
 
 ### Description
 
-This application needs and custom backend for generating the password this 
-api is found it here https://github.com/Isaacsmile1082/password-api make sure tu run it
-before run the frontend build 
+This application needs a custom backend for generating the password this 
+API is found here https://github.com/Isaacsmile1082/password-api make sure to run it
+before running the frontend build 
 
 
 #### Features
 
 * Toggle between dark mode and light mode
 * Compare if your password is really strong
-* Generate a password based in certain conditions 
+* Generate a password-based on certain conditions 
 
 ### Video
 
